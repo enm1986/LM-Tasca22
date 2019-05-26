@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>LM TourS - Japón</title>
+</head>
+
+<body>
+
+    <!-- Banner -->
+    <div class="container-fluid">
+        <div class="row">
+            <div id="banner" class="col-lg-12 hidden-xs banner">
+                <div class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/banner_3.jpg" alt="Japan">
+                        </div>
+
+                        <div class="item">
+                            <img src="img/banner_1.jpg" alt="Mallorca">
+                        </div>
+
+                        <div class="item">
+                            <img src="img/banner_2.jpg" alt="India">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="270">
+        <!--<nav class="navbar navbar-inverse navbar-fixed-top">-->
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- Colapsar navbar en un botón -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="LM TourS">
+                </a>
+            </div>
+            <!-- Parte de la navbar que colapsará -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Destinos
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="la_india.html">India</a></li>
+                            <li><a href="japon.html">Japón <span class="label label-danger"><i>nuevo</i></span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="consejos.html">Consejos</a></li>
+                </ul>
+                <!-- Cuadro de búsqueda alineado a la derecha -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <form class="navbar-form" role="search">
+                            <div class="input-group add-on">
+                                <input class="form-control" placeholder="Buscar..." name="srch-term" id="srch-term"
+                                    type="text">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><i
+                                            class="glyphicon glyphicon-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-md-1 hidden-sm hidden-xs columna"></div>
+            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 centro">
+                <!-- Pestañas -->
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#articulo">Japón</a></li>
+                    <li><a data-toggle="tab" href="#comentarios">Comentarios</a></li>
+                    <li><a data-toggle="tab" href="#precios">Precios</a></li>
+                    <li><a data-toggle="tab" href="#imagenes">Galería</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="articulo" class="tab-pane fade in active">
+                        <div class="container">
+                            <h3>Japón</h3>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
+                                    <p>Es uno de los destinos más adictivos del planeta. Es cierto, viajar a Japón
+                                        supone fascinarse gracias a esa mezcla de tradiciones milenarias con tecnologías
+                                        de última vanguardia. En pocos lugares del planeta podrás experimentar a la vez
+                                        lo que significa moverte por una metrópolis futurista como Tokio, divisar las
+                                        cumbres nevadas del monte Fuji desde un onsen, admirar la delicadeza de un
+                                        jardín japonés en Kanazawa, escuchar las oraciones en algún templo budista de
+                                        Kioto al atardecer o degustar el sushi más fresco del mundo.
+                                    </p>
+                                    <p>En Japón puedes pasar de ciudades superpobladas a aldeas en las que todavía no
+                                        están acostumbrados a la presencia de extranjeros, pero en ambos escenarios te
+                                        sentirás tratado como un huésped de honor. Aparte de decirte qué hacer en Japón
+                                        y qué ver en Japón, vamos a tratar de ayudarte con los preparativos de tu viaje.
+                                        Aquí van una serie de recomendaciones sobre la documentación, vacunas, vuelos,
+                                        alojamiento o seguro de viaje. Prepárate que empieza un viaje muy emocionante.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 imagen-thumb">
+                                    <img src="img/j01.jpg" class="img-thumbnail" alt="bandera_japon" width="400">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h4>Recomendaciones antes de viajar a Japón</h4>
+                                    <ul>
+                                        <li><a href="#clima">Cuando ir y clima</a></li>
+                                        <li><a href="#documentacion">Documentación y seguridad</a></li>
+                                        <li><a href="#transporte">Transporte</a></li>
+                                        <li><a href="#alojamiento">Alojamiento</a></li>
+                                        <li><a href="#comida">Comida</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="clima" class="col-lg-12">
+                                    <h4>Cuando ir y clima</h4>
+                                    <p>Lo primero que hay que tener en cuenta para planificar un viaje a Japón es,
+                                        desde luego, buscar el mejor momento para ir. Cualquier momento del año es bueno
+                                        y cada estación ofrece un paisaje diferente y oportunidades distintas.</p>
+                                    <p>También <b>depende mucho de la zona del país que vayas a visitar</b>, ya que al
+                                        tratarse de un país que abarca desde zonas montañosas y de nieve en el norte
+                                        hasta entornos tropicales en el sur, el rango es realmente amplio.</p>
+                                    <p>Interesa saber que <b>la época de lluvias es en mayo y junio. Julio y agosto son
+                                            los meses más calurosos mientras que septiembre y octubre se adentran en la
+                                            temporada de tifones</b>. De hecho, nosotros llegamos a Tokio justo con los
+                                        últimos
+                                        coletazos de un tifón sobre nuestras cabezas.</p>
+                                    <p>Durante los meses <b>de diciembre a febrero el ambiente es frío</b> y con
+                                        frecuentes
+                                        nevadas en la mitad norte, alcanzando en ocasiones a la ciudad de Tokio.</p>
+                                    <p>Por tanto <b>las épocas más recomendables para viajar son primavera y otoño</b>,
+                                        ya que
+                                        contarás con temperaturas suaves y buen tiempo en general. Súmale además que en
+                                        esas fechas suceden dos de los eventos más importantes del año en el país, el
+                                        <b>sakura</b> en primavera y el <b>momiji</b> en otoño, y tendrás el cóctel
+                                        perfecto.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="documentacion" class="col-lg-12">
+                                    <h4>Documentación y seguridad</h4>
+                                    <p><b>Si tienes nacionalidad española, viajar a Japón no requiere ningún tipo de
+                                            tramite de visado</b>, gracias a los acuerdos bilaterales entre ambos
+                                        países. Basta con tener el pasaporte con una fecha de caducidad mayor a 6 meses
+                                        y el visado te lo harán rápidamente en el aeropuerto al llegar.</p>
+
+                                    <p><b>El país tiene fama de ser muy seguro</b> y con un nivel de delincuencia muy
+                                        bajo. Desde luego, después de haber estado dos veces en Japón, no puedo estar
+                                        más de acuerdo.</p>
+
+                                    <p>Eso no quiere decir que no debas tomar las precauciones habituales recomendables
+                                        en todo viaje, ya que delincuencia baja no quiere decir delincuencia cero y
+                                        siempre puede haber algún espabilado o espabilada buscando al primer incauto
+                                        despistado.</p>
+
+                                    <p>Las leyes en Japón difieren en muchos aspectos de las españolas o europeas, por
+                                        lo que es importante respetar todas las normas, avisos y señalizaciones que veas
+                                        en tu camino. No dudes en preguntar en caso de duda a cualquier policía, ya que
+                                        te ayudarán sin dudarlo. Son muy estrictos en el cumplimiento de la ley pero,
+                                        precisamente por ello, también harán lo posible para ayudarte a comprenderla.
+                                    </p>
+
+                                    <p>Es muy importante <b>llevar siempre contigo el pasaporte</b> por si te solicitan
+                                        identificación. Si no la llevas pueden llevarte a comisaría y hacerte esperar
+                                        hasta que alguien pueda ir a buscar tu documentación al hotel o donde sea que la
+                                        tengas. Si la has perdido, contacta rápidamente con la embajada sin dudarlo.</p>
+
+                                    <p>Respecto a los ciudadanos, <b>la legendaria amabilidad</b> de la que siempre se
+                                        habla
+                                        sigue estando por encima de cualquier alta expectativa que te hayas formado.
+                                        Siempre consiguen sorprenderme, aun sabiendo que son extremadamente serviciales,
+                                        siempre en aras de hacerte sentir como en casa.</p>
+
+                                    <p>Comprobarás que <b>su nivel de ingles es normalmente escaso</b>, pero a pesar de
+                                        ello
+                                        siempre intentan hacerse entender. De hecho, es fácil que te encuentres en la
+                                        situación de preguntarle algo a alguien que no hable ni una sola palabra en
+                                        inglés pero se vuelque en ayudarte, aun sin saber que es lo que realmente le has
+                                        consultado.</p>
+
+                                    <p>Esto seguramente te generará situaciones realmente confusas en ocasiones (y
+                                        acabarás echándote unas buenas risas, a pesar de quedarte igual que al
+                                        principio).</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="transporte" class="col-lg-12">
+                                    <h4>Transporte</h4>
+
+                                    <p>Mientras que en Tokio y Osaka el medio de transporte más utilizado es el metro,
+                                        en Kioto el autobús es el mejor medio para recorrer la ciudad cómodamente.</p>
+                                    <ul>
+                                        <div class="row">
+                                            <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
+                                                <li><b>El metro</b></li>
+                                                <p>En Tokio el metro funciona muy bien, pero hay que tener en cuenta que
+                                                    en
+                                                    la
+                                                    ciudad operan dos compañías distintas y de manera independiente: la
+                                                    <b>Tokyo
+                                                        Metro</b> y la <b>Toei</b>.</p>
+                                                <p>La linea Toei será tu mejor elección para ir a Asakusa o Shinjuku,
+                                                    mientras
+                                                    que la Tokyo Metro te cubrirá el resto de la ciudad. Además, en
+                                                    Tokio hay muchas estaciones de tren convencionales, de la JR Line
+                                                    (que podrás utilizar con el JR Pass
+                                                    si es que lo has adquirido y activado) que te permitirán
+                                                    desplazarte a ciudades periféricas del área metropolitana de Tokio.
+                                                </p>
+
+                                                <p>Estas estaciones están también repartidas por toda la ciudad, no solo
+                                                    en
+                                                    la
+                                                    estación central, por lo que revisa si tienes alguna cerca de tu
+                                                    alojamiento
+                                                    ya que puede facilitarte mucho las cosas si tienes pensado ir a
+                                                    lugares
+                                                    como
+                                                    Yokohama, Kamakura o incluso al Museo Ghibli. Este es el
+                                                    <a href="http://www.tokyometro.jp/library/svg_map/img/en/all.png"
+                                                        rel="nofollow">mapa de metro de Tokio</a>.</p>
+
+                                                <p>El precio del metro depende de la estación a la que vayas, pero está
+                                                    entre
+                                                    ¥170 y ¥250 (1,5€-2€). Hay algunas lineas especiales, como la
+                                                    Yurikamome
+                                                    que
+                                                    va a Odaiba, cuyo precio es de ¥320 (2,5€).</p>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 imagen-thumb">
+                                                <img src="img/j04.jpg" class="img-thumbnail" alt="metro_japon"
+                                                    width="400">
+                                            </div>
+                                        </div>
+                                        <li><b>El autobús</b></li>
+                                        <p>En Kioto, el autobús tiene una red impresionante, con decenas de lineas
+                                            cubriendo toda la ciudad y muchas de ellas llevándote directamente a las
+                                            entradas de los templos y palacios que seguramente querrás visitar.</p>
+
+                                        <p>Aunque un buen mapa te será de ayuda para saber que número de autobús debes
+                                            coger para ir a uno u otro lugar, es bastante fácil saber a donde se dirige
+                                            el autobús ya que sus indicaciones incluyen todos los puntos turísticos y
+                                            que parada es la mejor para bajarte. Este es el mapa de autobuses de Kioto.
+                                        </p>
+
+                                        <p>Eso si, recuerda que en Kioto al autobús se sube por la puerta trasera y se
+                                            paga al salir, por la puerta delantera. Hay un bono de tarifa plana de 1 día
+                                            por ¥500 (4€) por lo que, si tienes previsto coger mas de dos veces el
+                                            autobús en el mismo día, el bono te saldrá a cuenta. Se puede comprar en la
+                                            mayoría de autobuses, pidiéndoselo al conductor. El precio normal por viaje,
+                                            sea a donde sea, es de ¥230.</p>
+                                        <li><b>El tren interurbano</b></li>
+                                        <p>Por último, las lineas de tren interciudad, la mayoría de ellas operadas por
+                                            JR, funcionan realmente bien.</p>
+
+                                        <p>En lo que concierte a estos trenes, la recomendación más frecuente es la de
+                                            adquirir el <a href="https://www.japan-rail-pass.es" rel="nofollow">Japan
+                                                Rail Pass</a>, un bono de tren para turistas que se puede
+                                            adquirir por 7, 14 o 21 días. Solo se puede comprar desde fuera del país,
+                                            por lo que decidir si adquirirlo o no dependerá de tu plan de viaje y hay
+                                            que hacerlo con antelación.</p>
+
+                                        <p>El bono solo aplica a trenes del grupo JR, pero dado que eso cubre gran
+                                            parte del territorio japonés, te cubrirá prácticamente todos tus
+                                            desplazamientos interurbanos.</p>
+
+                                        <p>Al igual que pasaba con las lineas de cercanía en Tokio de JR, la frecuencia
+                                            de trenes es enorme, de puntualidad extrema y con un sistema de avisos
+                                            excelente que te avisan de si hay algún retraso, incluso si solo llega uno o
+                                            dos minutos más tarde de lo previsto.</p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="alojamiento" class="col-lg-12">
+                                    <h4>Alojamiento</h4>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
+                                            <p>Las opciones son tantas que dependerá de tu estilo de viaje y presupuesto
+                                                el
+                                                que
+                                                te decantes por una u otra.</p>
+                                            <p>Los <b>hostels</b> no tienen nada que
+                                                envidiar a muchos hoteles, teniendo siempre los servicios habituales de
+                                                hostels
+                                                que te permiten moverte a tu aire, disfrutar de zonas comunes y tener a
+                                                tu
+                                                disposición todo tipo de información para tus visitas. La posibilidad de
+                                                comentar detalles con otros huéspedes, disfrutar de servicio de
+                                                cafetería y
+                                                muchos más detalles son siempre de agradecer.</p>
+
+                                            <p>Si prefieres un <b>hotel convencional</b>, el rango de
+                                                precios es muy amplio también y no es difícil encontrar a precios
+                                                razonables
+                                                hoteles con su servicio de recepción, su habitación amplia con baño
+                                                privado
+                                                y
+                                                demás comodidades.</p>
+                                            <p> Otra opción es la de alojarse en un <b>ryokan</b> y experimentar el
+                                                estilo
+                                                tradicional
+                                                de pernocta, habiendo también establecimientos de amplia variedad de
+                                                precios
+                                                (hay hostels o <i>guest houses</i> orientados también a este estilo).
+                                            </p>
+                                            <p>Los <b>hoteles capsula</b> son también otra curiosidad del país, pero, no
+                                                son
+                                                más
+                                                baratos que las opciones ya mencionadas. Por ello
+                                                solo lo recomendamos si quieres experimentar por una noche la sensación
+                                                de
+                                                dormir en estos espacios reducidos, como la curiosidad que es, pero no
+                                                como
+                                                una
+                                                vía de ahorro en alojamiento.</p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 imagen-thumb">
+                                            <img src="img/j05.jpg" class="img-thumbnail" alt="ryokan" width="400">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="comida" class="col-lg-12">
+                                    <h4>Comida</h4>
+                                    <p><b>Comer en Japón es una autentica delicia y a precios irrisorios</b>.</p>
+                                    <p>A continuación comentamos las diferentes alternativas que se pueden encontrar
+                                        para improvisar cenas, llevar algo de comida para excursiones
+                                        de un día o simplemente comer algo o beber algo para combatir el calor:</p>
+                                    <ul>
+                                        <li>
+                                            <p><b>Restaurantes y puestos de comida</b>:</p>
+                                            <div class="row">
+                                                <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
+                                                    <p>En Japón los
+                                                        restaurantes
+                                                        normalmente
+                                                        están especializados en unos pocos platos y la filosofía es
+                                                        entrar, ser
+                                                        atendidos rápidamente, comer rápido también y que entren los
+                                                        siguientes.
+                                                        Esto a los restaurantes les da un nivel de rotación altísimo y
+                                                        les
+                                                        permite
+                                                        tener unos precios muy bajos, incluso en zonas muy turísticas.
+                                                        Por ello, si ves colas en el exterior de alguno, no te preocupes
+                                                        porque
+                                                        la
+                                                        espera será poca debido a esa rotación y en nada estarás
+                                                        comiendo.</p>
+                                                    <p>Por si fuera poco, prácticamente todos los restaurantes exhiben
+                                                        replicas
+                                                        de
+                                                        los platos en el escaparate o con fotos, por lo que elegir que
+                                                        comer o
+                                                        que
+                                                        restaurante tiene una especialidad que te apetezca probar es
+                                                        extremadamente
+                                                        sencillo.</p>
+
+                                                    <p>Además siempre tienes visible el precio en la entrada y sabrás de
+                                                        antemano exactamente que es lo que vas a pagar. Sin sorpresas.
+                                                    </p>
+
+                                                    <p>Incluso hay restaurantes con una máquina expendedora de tickets
+                                                        fuera,
+                                                        por lo que primero pagas y luego le entregas al encargado un
+                                                        ticket con
+                                                        la comida exacta, sin tener que explicar nada.</p>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 imagen-thumb">
+                                                    <img src="img/j06.jpg" class="img-thumbnail" alt="expositor_comida"
+                                                        width="400">
+                                                </div>
+                                            </div>
+                                            <p>Además, siempre está incluida el agua o té sin limites, por lo
+                                                que,
+                                                salvo que quieras alguna otra bebida especial, no tendrás
+                                                problema para
+                                                hidratarte. Extremadamente sencillo y práctico.</p>
+                                            <p>Normalmente, se puede comer y cenar por entre ¥600-¥1.000 (5 –
+                                                8€) cada
+                                                uno.</p>
+                                            <p>En restaurantes orientados a celebraciones familiares, y por lo
+                                                tanto a compartir tiempo en la mesa
+                                                (cosa que no suele ser frecuente en los anteriormente
+                                                mencionados).
+                                                se puede salir por ¥2.000 (16€) por cabeza, comiendo
+                                                abundantemente y
+                                                acompañándolo incluso con unas copas.</p>
+                                            <p>Eso si, tened en cuenta que el café, la cerveza y el alcohol en
+                                                general
+                                                son caros. Es habitual pagar ¥500 (4€) por un café y lo mismo
+                                                por
+                                                una cerveza, casi lo mismo que el presupuesto para comer.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><b>Combini</b>:</p>
+                                            <p>Socorridos a cualquier hora, ya que te puedes encontrar con cajas
+                                                de bento, onigiris y otras cositas interesantes para llevar, o incluso
+                                                comer
+                                                allí.</p>
+                                            <p>De noche, si llegas a tu alojamiento muy tarde, será tu mejor opción para
+                                                cenar algo, ya que tendrás alguno a menos de 200 metros. Seguro. Además,
+                                                de
+                                                noche, los precios suelen ser más baratos en los productos frescos.</p>
+                                        </li>
+                                        <li>
+                                            <p><b>Supermercados</b>:</p>
+                                            <p>Más baratos que los combini, desde luego, y con bastante variedad. El
+                                                problema es que hay menos y normalmente en zonas más residenciales y no
+                                                tan turísticas, por lo que puede costar más tener alguno de mano.</p>
+                                        </li>
+                                        <li>
+                                            <p><b>Tiendas de sushi</b>:</p>
+                                            <p>Si te encuentras alguna a ultima hora, tendrás <b>descuentos de hasta el
+                                                    50
+                                                    o 70%</b> ya que no es frecuente que lo vendan de un día para otro.
+                                                La frescura sigue siendo excelente ya que no han pasado ni 12 horas
+                                                desde que los han hecho, en el peor de los casos.</p>
+                                        </li>
+                                        <li>
+                                            <p><b>Máquinas de refrescos</b>:</p>
+                                            <div class="row">
+                                                <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
+                                                    <p>Si quieres refrescarte en algún momento de tu recorrido,
+                                                        simplemente
+                                                        detente, mira alrededor y a menos de 50 metros tendrás
+                                                        una máquina expendedora de bebidas con una variedad enorme.</p>
+
+                                                    <p>El precio es ridículo. Van desde los ¥100 (aprox. 0,80€) hasta
+                                                        los ¥180
+                                                        (aprox. 1,50€). Café en lata de todo tipo,
+                                                        bebidas isotónicas, refrescos gaseosos y cantidad de bebidas
+                                                        adictivas
+                                                        que no encontrarás fuera del país nipón.</p>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 imagen-thumb">
+                                                    <img src="img/j07.jpg" class="img-thumbnail" alt="refrescos"
+                                                        width="400">
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Galería de imágenes -->
+                    <div id="imagenes" class="tab-pane fade">
+                        <div class="container">
+                            <h3>Galería de imágenes</h3>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="thumbnail">
+                                        <a href="img/jg01.jpg" target="_blank">
+                                            <img src="img/jg01.jpg" class="img-thumbnail" alt="img1" width="350"
+                                                height="300">
+                                            <div class="caption">
+                                                <p>Akihabara</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="thumbnail">
+                                        <a href="img/jg05.jpg" target="_blank">
+                                            <img src="img/jg05.jpg" class="img-thumbnail" alt="img3" width="350"
+                                                height="300">
+                                            <div class="caption">
+                                                <p>Asakusa</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="thumbnail">
+                                        <a href="img/jg02.jpg" target="_blank">
+                                            <img src="img/jg02.jpg" class="img-thumbnail" alt="img2" width="350"
+                                                height="300">
+                                            <div class="caption">
+                                                <p>Shibuya</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="thumbnail">
+                                        <a href="img/jg06.jpg" target="_blank">
+                                            <img src="img/jg06.jpg" class="img-thumbnail" alt="img3" width="350"
+                                                height="300">
+                                            <div class="caption">
+                                                <p>Estatua de Hachiko (Shibuya)</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="thumbnail">
+                                        <a href="img/jg03.jpg" target="_blank">
+                                            <img src="img/jg03.jpg" class="img-thumbnail" alt="img3" width="350"
+                                                height="300">
+                                            <div class="caption">
+                                                <p>Odaiba</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="thumbnail">
+                                        <a href="img/jg04.jpeg" target="_blank">
+                                            <img src="img/jg04.jpeg" class="img-thumbnail" alt="img3" width="350"
+                                                height="300">
+                                            <div class="caption">
+                                                <p>Kyoto</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="thumbnail">
+                                        <a href="img/jg07.jpg" target="_blank">
+                                            <img src="img/jg07.jpg" class="img-thumbnail" alt="img3" width="350"
+                                                height="300">
+                                            <div class="caption">
+                                                <p>Nikko</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="thumbnail">
+                                        <a href="img/jg08.jpg" target="_blank">
+                                            <img src="img/jg08.jpg" class="img-thumbnail" alt="img3" width="350"
+                                                height="300">
+                                            <div class="caption">
+                                                <p>Nara</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="comentarios" class="tab-pane fade">
+                        <h3>Opiniones</h3>
+
+                        <!-- Media top -->
+                        <div class="media">
+                            <div class="media-left media-top">
+                                <img src="img/img_avatar1.png" class="media-object" style="width:45px">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Fulanito</h4>
+                                <p>Cierto con lo de las bebidas adictivas que no encontrarás fuera del país. Tras volver
+                                    de allí tuve síndrome de abstinencia por culpa de un té de manzana que no he vuelto
+                                    a probar T.T</p>
+
+                                <!-- Nested Media-->
+                                <div class="media-left media-top">
+                                    <img src="img/img_avatar4.png" class="media-object" style="width:45px">
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Menganita</h4>
+                                    <p>A mí me pasó lo mismo con la Melon soda XD</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Media top -->
+                        <div class="media">
+                            <div class="media-left media-top">
+                                <img src="img/img_avatar2.png" class="media-object" style="width:45px">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Pepito</h4>
+                                <p>Os habéis olvidado mencionar lo de los váteres con chorrito. Al principio lo usas con
+                                    miedo, pero después ves que es un avance.
+                                    Me dediqué a probar todos los váteres de los establecimientos a los que íbamos. Unos
+                                    tenían música, otros tenían calefacción (a veces no sabías si era que alguien
+                                    acababa de usarlo y daba como grima), podías regular la potencia del chorro... nos
+                                    llevan años de ventaja.
+                                </p>
+                            </div>
+                        </div>
+
+                        <h3>Introduce un comentario</h3>
+                        <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                            <!-- Formulario -->
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                    <label for="usr">Nombre:</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="Nombre" name="nombre">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment">Comentario:</label>
+                                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-default">Envía</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="precios" class="tab-pane fade">
+                        <div class="container">
+                            <h3>Precios</h3>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
+                                    <p>Uno de los mayores gastos del presupuesto de un viaje a Japón suele ser el vuelo.
+                                        El precio de los vuelos a Japón suele estar entre los 450 y los 800 €
+                                        dependiendo de la temporada. En octubre de 2016 se inauguró un vuelo directo
+                                        entre Madrid y Tokio con Iberia, aunque a veces las combinaciones con escala con
+                                        otras compañías pueden salir muy bien de precio. Si eres tú mismo el que va a
+                                        comprar los billetes, es recomendable que mires casi a diario en buscadores de
+                                        reservas de vuelos, ya que las aerolíneas suelen cambiar las tarifas con
+                                        bastante frecuencia. Cuanto antes empieces a buscar tu vuelo para Japón, mucho
+                                        mejor, especialmente si quieres viajar en verano o en primavera, que son las
+                                        temporadas altas.</p>
+                                    <p>Desde el 7 de enero de 2019 Japón ha impuesto una nueva tasa a cada pasajero que
+                                        salga del país por avión o por barco. El impuesto Sayonara, de 1.000 yenes
+                                        (8,03€), será cargado directamente en los billetes de avión y de
+                                        barco comprados y afectará tanto a extranjeros como a japoneses mayores de dos
+                                        años o a quienes realicen estancias superiores a 24 horas. No deberán pagarlo
+                                        aquellos que hagan escala en los aeropuertos o puertos del país.</p>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 imagen-thumb">
+                                    <img src="img/jp01.jpg" class="img-thumbnail" alt="euros" width="400">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
+                                    <p>El Yen es la moneda oficial del país y, dependiendo del precio de la divisa, tu
+                                        presupuesto podrá beneficiarse de un buen cambio.</p>
+                                    <p>El mejor lugar para cambiar la moneda es al llegar al aeropuerto en Japón, ya que
+                                        es uno de los lugares con mejor cambio. Puedes encontrar alguna oficina de
+                                        cambio más favorable (puedes conseguir uno o dos yenes mas por euro), por
+                                        ejemplo en el centro de Tokio. Pero la ventaja del aeropuerto es que puedes
+                                        cambiar dinero y disponer de yenes desde el primer momento para comenzar a
+                                        moverte y sin tener que perder el tiempo buscando oficinas de cambio, ya que por
+                                        la del aeropuerto vas a pasar, si o si.</p>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                    <img src="img/j03.jpg" class="img-thumbnail" alt="euros" width="400">
+                                </div>
+                            </div>
+
+
+                            <!-- Tabla -->
+                            <div class="table-responsive">
+                                <h4>Gastos</h4>
+                                <p>Uno de los objetivos principales al viajar es intentar maximizar el presupuesto
+                                    asignado,
+                                    intentando ahorrar en medida de lo posible sin renunciar a nuestro concepto de
+                                    confort.
+                                </p>
+                                <p>A continuación mostramos el presupuesto medio para un viaje de 2 semanas:
+                                </p>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Categoría</th>
+                                            <th>Precio (€)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Avión</td>
+                                            <td>700€</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Alojamiento</td>
+                                            <td>350€</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Transporte (tren, metro, autobús...)</td>
+                                            <td>200€</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Alimentación (comida, bebida...)</td>
+                                            <td>250€</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Entradas (parques, museos...)</td>
+                                            <td>80€</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Otros (seguro, souvenirs...)</td>
+                                            <td>200€</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>TOTAL</b></td>
+                                            <td><b>1780€</b></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-lg-2 col-md-1 hidden-sm hidden-xs columna"></div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer" class="navbar navbar-inverse">
+        <div class="container">
+            <p class="navbar-text pull-left">
+                2019 - Eugenio Navarro Mas <br>
+                1º DAW - Lenguaje de marcas <br>
+                <a href="http://www.iesfbmoll.org/" target="_blank">IES Francesc de Borja Moll</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+
+body, html {
+    height: 100%;
+  }
+
+#banner {
+    padding: 0px;
+    max-height: 270px;
+    background-color: #222222;
+}
+
+/* posición nav-bar */
+
+
+.navbar{
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    
+}
+
+.affix {
+    top: 0px;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+.affix + .container-fluid {
+    padding-top: 72px;
+}
+
+.navbar-brand {
+    padding: 5px 10px;
+}
+/* Centrar imágenes en carrusel*/
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+
+
+/* Centrar pestañas*/  
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.centro{
+    padding-bottom: 20px;
+    
+}
+
+.imagen-thumb{
+    text-align: center;
+}
+
+.caption{
+    text-align: center;
+}
+
+.columna{
+    /*background-color: lightgrey;
+    border-style: solid;
+    border-color: white;
+    padding-bottom: 500px;*/
+}
+
+#footer{
+    margin-top: 8%;
+}
